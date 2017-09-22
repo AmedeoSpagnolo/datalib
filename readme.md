@@ -4,4 +4,4 @@
 
 ## NPM 
 	
-	npm install https://github.com/AmedeoSpagnolo/datalib
+	npm install git+ssh://git@github.com:AmedeoSpagnolo/datalib.git
