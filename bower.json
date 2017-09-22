@@ -1,0 +1,12 @@
+{
+  "name": "datalib",
+  "version": "1.0",
+  "description": "An easy way to dataviz",
+  "main": "dist/datalib.js",
+  "authors": [
+    "Amedeo Spagnolo"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/AmedeoSpagnolo/datalib",
+  "ignore": []
+}
