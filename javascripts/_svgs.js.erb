@@ -1,0 +1,20 @@
+;$( document ).ready(function() {
+
+  app.vz = {}
+
+  <% data.main.sections.each do |a| %>
+    <% a['visualizations'].each do |b| %>
+      app.vz['<%= "#{b.name}" %>'] = new <%= "#{b.type}" %>(<%= data["#{b.dataset}"].to_json %>, {
+        <% b.options.each do |k, v| %>
+          "<%= k %>": <%= v %>,
+        <% end %>
+      })
+    <% end %>
+  <% end %>
+
+  $('[svg-id]').each(function(){
+    var tmp = $(this).attr('svg-id')
+    app.vz[tmp].init('[svg-id='+tmp+']')
+  })
+
+})
