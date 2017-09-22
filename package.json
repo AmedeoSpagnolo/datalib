@@ -1,0 +1,19 @@
+{
+  "name": "datalib",
+  "version": "1.0.0",
+  "description": "An easy way to dataviz",
+  "main": "dist/datalib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmedeoSpagnolo/datalib.git"
+  },
+  "author": "Amedeo Spagnolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmedeoSpagnolo/datalib/issues"
+  },
+  "homepage": "https://github.com/AmedeoSpagnolo/datalib#readme"
+}
